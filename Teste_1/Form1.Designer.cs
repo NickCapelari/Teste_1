@@ -37,7 +37,7 @@ namespace Teste_1
             // 
             // btnLerArquivo
             // 
-            this.btnLerArquivo.Location = new System.Drawing.Point(207, 27);
+            this.btnLerArquivo.Location = new System.Drawing.Point(12, 12);
             this.btnLerArquivo.Name = "btnLerArquivo";
             this.btnLerArquivo.Size = new System.Drawing.Size(113, 56);
             this.btnLerArquivo.TabIndex = 0;
@@ -48,20 +48,21 @@ namespace Teste_1
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(346, 27);
+            this.dataGridView1.Location = new System.Drawing.Point(131, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(442, 251);
+            this.dataGridView1.Size = new System.Drawing.Size(657, 408);
             this.dataGridView1.TabIndex = 1;
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(207, 108);
+            this.btnConsultar.Location = new System.Drawing.Point(12, 74);
             this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(104, 53);
+            this.btnConsultar.Size = new System.Drawing.Size(113, 59);
             this.btnConsultar.TabIndex = 2;
             this.btnConsultar.Text = "Consutar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // Form1
             // 
